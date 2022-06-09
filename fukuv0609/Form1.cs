@@ -20,6 +20,7 @@ namespace fukuv0609
         private void label1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("岩立一樹");
+            timer1.Enabled = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -46,8 +47,9 @@ namespace fukuv0609
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Top = label1.Top + -10;
-            label1.Text = "↑";
+            textBox1.Text = "5";
+            textBox2.Text = "0";
+               label1.Text = "↑";
         }
 
         private void button4_Click(object sender, EventArgs e)
